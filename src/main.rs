@@ -1,12 +1,9 @@
-// Many references
+// 
 fn main() {
-    let mut s: String = String::from("hello");
+    let mut s: String = String::new();
+    s.push_str("hello, world");
+    s.push('!');
 
-    let r1 = &s;
-    let r2: &String = &s;
-    println!("{} and {}", r1, r2);
-
-    // Only one mutable reference
-    let r3 = &mut s;
-    println!("{}", r3);
+    assert_eq!(s, "hello, world!");
+    println!("Success!");
 }
