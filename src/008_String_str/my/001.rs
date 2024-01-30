@@ -4,31 +4,29 @@ use std::io::{stdin, stdout, Write};
 const MSG: &str = "Failed to flush stdout";
 
 fn main() {
-    let mut input: String = String::new();
+    let mut input = String::new();
 
     print!("Print a string: ");
+    stdout().flush().expect(MSG);
     get_string_value(&mut input);
 
-    let reversed_string: String = reverse_string(&mut input);
+    let reversed_string = reverse_string(&mut input.trim());
 
-    // Result output
-    println!("{}", &reversed_string);
+    // Result output on the same line
+    println!("Reversed: {}", reversed_string);
 
-    // Waiting a key press
-    println!("\nPress any key to continue...");
+    // Waiting for a key press
+    println!("\nPress Enter to continue...");
     let _ = stdin().read_line(&mut input);
 }
 
 /// Get string input from user
-fn get_string_value(input: &mut String) -> String {
-    stdout().flush().expect(MSG);
+fn get_string_value(input: &mut String) {
     stdin().read_line(input).expect("Not a valid string");
-    input.trim().to_string()
 }
 
 /// Function for reverse string
-fn reverse_string(s: &mut String) -> String {
-    s.pop();    // Remove "\n" from input
+fn reverse_string(s: &str) -> String {
     let mut chars: Vec<char> = s.chars().collect();
     chars.reverse();
     chars.into_iter().collect()
