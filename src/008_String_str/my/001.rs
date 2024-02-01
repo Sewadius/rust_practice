@@ -1,9 +1,11 @@
-// Get string from user and prints the reversed string
 use std::io::{stdin, stdout, Write};
 
 const MSG: &str = "Failed to flush stdout";
 
+// The program receives the string and outputs the reversed string
 fn main() {
+    println!("The program receives the string and outputs the reversed string.\n");
+
     let mut input = String::new();
 
     print!("Print a string: ");

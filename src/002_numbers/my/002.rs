@@ -6,8 +6,10 @@ mod macros {
     mod custom_io;
 }
 
-// Get two int numbers and counts the sum
+// The program reads two i32 numbers and outputs their sum (with macros)
 fn main() {
+    println!("The program reads two i32 numbers and outputs their sum (with macros).\n");
+
     print!("Enter first number: ");
     flush_stdout!();
     let number_1: i32 = get_i32_value!();

@@ -1,7 +1,9 @@
-// Get two i32 vars and counting for additon/substraction
+// The program receives two i32 variables and counts the sum/subtraction
 use std::io::{stdin, stdout, Write};
 
 fn main() {
+    println!("The program receives two i32 variables and counts the sum/subtraction.\n");
+
     let mut input: String = String::new();
     let (number1, number2);
 

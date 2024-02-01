@@ -6,8 +6,10 @@ mod macros {
     mod custom_string;
 }
 
-// Get a string from user and reverse it - ver.2 (with macros)
+// The program receives the string and outputs the reversed string (with macros)
 fn main() {
+    println!("The program receives the string and outputs the reversed string (with macros).\n");
+
     print!("Enter initial string: ");
     flush_stdout!();
 

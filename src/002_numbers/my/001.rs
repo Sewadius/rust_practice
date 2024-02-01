@@ -1,7 +1,9 @@
 use std::io::{self, Write};
 
-// Get user's input and prints Even or Odd number
+// The program receives an i32 number and determines even/oddness
 fn main() {
+    println!("The program receives an i32 number and determines even/oddness.\n");
+
     print!("Enter the integer number: ");
     let _ = io::stdout().flush();
 
@@ -11,15 +13,14 @@ fn main() {
     let number: i32 = match input.trim().parse() {
         Ok(num) => num,
         Err(_) => {
-            println!("Invlid input! Please enter a valid integer.");
+            println!("Failed parsing to integer!");
+            wait_any_key_pressed();
             return;
         }
     };
 
     println!("Result: {}", even_or_odd(number));
-    println!("\nPress any key to continue...");
-    
-    let _ = io::stdin().read_line(&mut String::new());
+    wait_any_key_pressed();
 }
 
 /// Function for check even / odd
@@ -28,4 +29,10 @@ fn even_or_odd(number: i32) -> &'static str {
         0 => "Even number",
         _ => "Odd number"
     }
+}
+
+/// Waiting for key pressed
+fn wait_any_key_pressed() {
+    println!("\nPress any key to continue...");
+    let _ = io::stdin().read_line(&mut String::new());
 }

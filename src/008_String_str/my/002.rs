@@ -4,8 +4,10 @@ mod macros {
     mod custom_io;
 }
 
-// Get a string from user and prints in out (with macros)
+// The program receives a string and outputs it (with macros)
 fn main() {
+    println!("The program receives a string and outputs it (with macros).\n");
+
     print!("Enter a string: ");
     flush_stdout!();
 

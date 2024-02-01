@@ -1,7 +1,9 @@
 use std::io;
 
-//  No value and value for Option<i32> 
+// Example of using Option<i32> with and without value
 fn main() {
+    println!("Example of using Option<i32> with and without value.\n");
+
     let no_value: Option<i32> = None;
     let some_value: Option<i32> = Some(42);
 

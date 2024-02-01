@@ -6,8 +6,10 @@ const INVALID: &str = "Invalid number! Try again!";
 
 const THREE: i32 = 3;
 
-// Get int from user and write (n * 3) times, loop example
+// The program outputs n: i32 (input) numbers multiplied by 3 
 fn main() {
+    println!("The program outputs n: i32 (input) numbers multiplied by 3.\n");
+
     print!("{}", MSG);
     let _ = io::stdout().flush();
 
