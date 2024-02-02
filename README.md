@@ -12,6 +12,7 @@ Course duration: 13:59:09 (839 mins)
 30.01.24: till 05:02:57 (36.0% complete)    
 31.01.24: till 05:14:13 (37.4% complete)    
 31.01.24: till 05:28:56 (39.1% complete)   
-01.02.24: till 05:49:38 (41.6% complete)
+01.02.24: till 05:49:38 (41.6% complete)    
+02.02.24: till 06:39:24 (47.5% complete)   
 
 
