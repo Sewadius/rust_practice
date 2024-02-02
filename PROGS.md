@@ -13,6 +13,9 @@
 009_Arrays:  
 - 001: The program creates an array of length 10 elements i32 with a given step size  
 
+013_Enums:  
+- 001: The program uses enum, example of working with "TrafficLights"  
+
 014_OptionEnum:  
 - 001: Example of using Option\<i32\> with and without value  
 
