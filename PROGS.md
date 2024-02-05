@@ -13,6 +13,9 @@
 009_Arrays:  
 - 001: The program creates an array of length 10 elements i32 with a given step size  
 
+012_Struct:  
+- 001: The program creates and processes a rectangle structure  
+
 013_Enums:  
 - 001: The program uses enum, example of working with "TrafficLights"  
 
