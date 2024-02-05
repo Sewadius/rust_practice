@@ -5,6 +5,10 @@
 - 001: The program receives an i32 number and determines even/oddness  
 - 002: The program reads two i32 numbers and outputs their sum (with macros)  
 
+005_Functions:  
+- 001: The program with function to find the maximum of two integers  
+- 002: The program counts the frequency of each word in the string   
+
 008_String_str:  
 - 001: The program receives the string and outputs the reversed string  
 - 002: The program receives a string and outputs it (with macros)   
