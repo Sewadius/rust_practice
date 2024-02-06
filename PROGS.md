@@ -22,11 +22,15 @@
 
 013_Enums:  
 - 001: The program uses enum, example of working with "TrafficLights"  
+- 002: The program changes the direction of the sides of the world  
 
 014_OptionEnum:  
 - 001: Example of using Option\<i32\> with and without value  
 
 015_FlowControl:  
 - 001: The program outputs n: i32 (input) numbers multiplied by 3   
+
+019_Traits:  
+- 001: The program calculates the area and perimeter of the selected figure  
 
 

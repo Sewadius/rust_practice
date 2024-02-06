@@ -7,6 +7,23 @@ macro_rules! get_string_value {
     };
 }
 
+/*
+/// Macro to read value as chosen type
+#[allow(unused_macros)]
+macro_rules! read {
+    ($out:ident as $type:ty) => {
+        let mut input = String::new();
+        std::io::stdin().read_line(&mut input).expect("Failed to read line");
+        match input().trim().parse::<$type>() (
+            Ok(input) => input,
+            Err(_) => {
+                println!("Failed to parse to chosen type");
+                return None
+            }
+        )
+    }
+} */
+
 /// Macro to get an integer number from user
 #[allow(unused_macros)]
 macro_rules! get_i32_value {

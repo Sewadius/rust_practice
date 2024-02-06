@@ -6,4 +6,5 @@
 
 #### 8 kyu
 
-- *001_EvenOrOdd:* A functions returns "Even" for even numbers or "Odd" for odd numbers   
+- *001_EvenOrOdd:* A function returns "Even" for even numbers or "Odd" for odd numbers  
+- *002_ConvertNumberToString*: A function convert i32 number to String object  
