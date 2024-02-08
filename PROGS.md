@@ -29,6 +29,7 @@
 
 015_FlowControl:  
 - 001: The program outputs n: i32 (input) numbers multiplied by 3   
+- 002: The program makes the last character in the string capitalized  
 
 019_Traits:  
 - 001: The program calculates the area and perimeter of the selected figure  
