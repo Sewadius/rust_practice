@@ -23,6 +23,7 @@
 013_Enums:  
 - 001 [44 lines]: The program uses enum, example of working with "TrafficLights"      
 - 002 [37 lines]: The program changes the direction of the sides of the world  
+- 003 [120 lines]: The program is rock/paper/scissors game with enums and AI    
 
 014_OptionEnum:  
 - 001 [23 lines]: Example of using Option\<i32\> with and without value    

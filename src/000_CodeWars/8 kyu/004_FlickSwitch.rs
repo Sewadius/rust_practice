@@ -1,6 +1,6 @@
 use std::io;
 
-// if an element is the word "flick", switch to the opposite bool value
+// If an element is the word "flick", switch to the opposite bool value
 fn main() {
     println!("The program always returns True/true for every item in a given list.");
     println!("However, if an element is the word 'flick', switch to the opposite bool value.\n");
