@@ -27,6 +27,7 @@
 
 014_OptionEnum:  
 - 001 [23 lines]: Example of using Option\<i32\> with and without value    
+- 002 [44 lines]: Using Option\<f64\> for handle with divide  
 
 015_FlowControl:  
 - 001 [52 lines]: The program outputs n: i32 (input) numbers multiplied by 3      
